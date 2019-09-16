@@ -4,8 +4,8 @@ Public Class frmMain ' main form - Alex 16/09/19
         numShift.Value = 4
         lblOutput.Text = ""
     End Sub
-   
-    Private Sub btnEncrypt_Click(sender As Object, e As EventArgs) Handles btnEncrypt.Click
+    
+    Private Sub btnEncrypt_Click(sender As Object, e As EventArgs) Handles btnEncrypt.Click ' button to encrypt - josh 16/09/19
         Dim plainText As String = txtInput.Text.ToUpper()
         'Dim cipherText As String = "" 'Original cipherText code
         Dim cipherText As String = "Drew was here"
