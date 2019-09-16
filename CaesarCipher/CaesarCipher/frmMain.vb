@@ -1,4 +1,4 @@
-﻿Public Class frmMain
+Public Class frmMain ' main form - Alex 16/09/19
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtInput.Clear()
         numShift.Value = 4
